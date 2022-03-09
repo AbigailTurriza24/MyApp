@@ -16,6 +16,9 @@ class MainActivity : AppCompatActivity() {
         var intent = Intent (this, activity_Listview::class.java)
         intent.putExtra("MENSAJE", "Hacia Actividad B")
         startActivity(intent)
+
+
+
     }
 }
 }

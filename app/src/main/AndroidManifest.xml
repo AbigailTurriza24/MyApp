@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApp">
         <activity
+            android:name=".activity_Grid"
+            android:exported="false" />
+        <activity
             android:name=".activity_Listview"
             android:exported="false" />
         <activity
